@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "NunitoSans-Regular";
+  src: url(fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "YesevaOne-Regular";
+  src: url(fonts/YesevaOne-Regular.ttf);
+}
+
+body {
+  margin-top: 0%;
+  max-width: max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+main {
+  max-width: max-width;
+}
+a {
+  font-family: "NunitoSans-Regular";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-tab {
+  background: #131313;
+  /* max-width: 1440px; */
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-li {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.nav-li > h1 {
+  font-family: "NunitoSans-Regular";
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #e3b873;
+}
+.nav-li > p {
+  font-family: "NunitoSans-Regular";
+
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #e3b873;
+  text-decoration-line: underline;
+}
+
+.nav-li > button {
+  margin-left: 45px;
+  background: #e3b873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  border: none;
+}
+.nav-tab-btn {
+  font-family: "NunitoSans-Regular";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 35px;
+}
+
+.nav-tab-li > button {
+  padding: 0;
+  border: none;
+  background: none;
+  margin-right: 45px;
+}
+
+.nav-tab-li:first-child > button {
+  color: #e3b873;
+}
+
+.preview-page > img {
+  max-width: max-width;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.focus_color {
+  color: #e3b873;
+}
+
+.hero {
+  background-image: url(/img/image\ 4.3.png);
+  background-size: cover;
+  height: 700px;
+  padding-top: 150px;
+}
+
+.title {
+  font-family: "YesevaOne-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
